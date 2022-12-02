@@ -38,22 +38,21 @@
 Познакомиться с работой перцептрона с помощью Unity.
 
 ## Задание 1
-- Установка пакетов в Pakage Manager
-[![](https://github.com/MikhaillVodolaginn/DA-in-GameDev-Lab3/blob/main/Снимок%20экрана%202022-10-26%20в%2022.54.22.png?raw=true)
-- Создание необходимых объектов
-[![](https://github.com/MikhaillVodolaginn/DA-in-GameDev-Lab3/blob/main/Снимок%20экрана%202022-10-27%20в%2001.48.18.png?raw=true)
-- Привязка скрипта и задание свойств
-[![](https://github.com/MikhaillVodolaginn/DA-in-GameDev-Lab3/blob/main/Снимок%20экрана%202022-10-27%20в%2001.48.44.png?raw=true)
-
-- 3 копии
-[![](https://github.com/MikhaillVodolaginn/DA-in-GameDev-Lab3/blob/main/Снимок%20экрана%202022-10-27%20в%2002.21.37.png?raw=true)
-- 9 копий
-[![](https://github.com/MikhaillVodolaginn/DA-in-GameDev-Lab3/blob/main/Снимок%20экрана%202022-10-27%20в%2002.23.51.png?raw=true)
-- 27 копий
-[![](https://github.com/MikhaillVodolaginn/DA-in-GameDev-Lab3/blob/main/Снимок%20экрана%202022-10-27%20в%2002.29.02.png?raw=true)
-- Обучение агента
-[![](https://github.com/MikhaillVodolaginn/DA-in-GameDev-Lab3/blob/main/Снимок%20экрана%202022-10-27%20в%2002.37.19.png?raw=true)
-- Средний показатель награды составил 0,922
+- Создал новый проект Unity, создал в нем пустой объект и прикрепил к нему скрипт C# Perceptron.cs
+[![](https://github.com/MikhaillVodolaginn/DA-in-GameDev-Lab4/blob/main/Снимок%20экрана%202022-12-02%20в%2019.32.02.png?raw=true)
+- Логическая операция OR
+[![](https://github.com/MikhaillVodolaginn/DA-in-GameDev-Lab4/blob/main/Снимок%20экрана%202022-12-02%20в%2019.41.35.png?raw=true)
+По итогу ошибка составила 0 и перцептрон смог обучиться, на тестовых данных работает верно
+- Логическая операция AND
+[![](https://github.com/MikhaillVodolaginn/DA-in-GameDev-Lab4/blob/main/Снимок%20экрана%202022-12-02%20в%2019.37.50.png?raw=true)
+По итогу ошибка составила 0 и перцептрон смог обучиться, на тестовых данных работает верно
+- Логическая операция NAND
+[![](https://github.com/MikhaillVodolaginn/DA-in-GameDev-Lab4/blob/main/Снимок%20экрана%202022-12-02%20в%2019.43.47.png?raw=true)
+По итогу ошибка составила 0 и перцептрон смог обучиться, на тестовых данных работает верно
+- Логическая операция XOR
+[![](https://github.com/MikhaillVodolaginn/DA-in-GameDev-Lab4/blob/main/Снимок%20экрана%202022-12-02%20в%2019.45.58.png?raw=true)
+По итогу ошибка оказалась больше 0 и перцептрон не смог обучиться, на тестовых данных работает неверно
+Это связано с тем, перцептрон проводит так называемую границу между подходящими и неподходящими данными, а для данной операции необходимо 2 так называемые границы, то есть как минимум 2 перцептрона, работающих в связке
 
 ## Задание 2
 ### Подробно опишите каждую строку файла конфигурации нейронной сети, доступного в папке с файлами проекта по ссылке.
